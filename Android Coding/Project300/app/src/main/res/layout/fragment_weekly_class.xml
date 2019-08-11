@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nowshad.project300.fragment.WeeklyClassFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinnerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateName"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dayName"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"/>
+
+</LinearLayout>
